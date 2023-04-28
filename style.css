@@ -1,0 +1,568 @@
+/* common CSS */
+.m-2 {
+  margin: 5px;
+}
+.p-2 {
+  padding: 5px;
+}
+.mx-2 {
+  margin: 0 5px;
+}
+.my-2 {
+  margin: 5px 0;
+}
+.px-2 {
+  padding: 0 5px;
+}
+.mt-2 {
+  margin-top: 5px;
+}
+.mt-5 {
+  margin-top: 15px;
+}
+.mb-5 {
+  margin-bottom: 15px;
+}
+.mt-10 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 20px;
+}
+.mt-20 {
+  margin-top: 40px;
+}
+.mb-20 {
+  margin-bottom: 40px;
+}
+.mb-2 {
+  margin-bottom: 5px;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* common CSS ends */
+
+/* navbar starts */
+.container {
+  margin: 0 auto;
+  width: 1260px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #389938;
+}
+.navbar span {
+  color: #dd3131;
+}
+.navbar input {
+  height: 1.5rem;
+  width: 50rem;
+  border: none;
+  background-color: #8285830f;
+  border-radius: 3px;
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #584b4b;
+}
+.nav-btn i {
+  /* padding: 1.1rem 2.5rem; */
+  font-size: 1.3rem;
+  color: #fff;
+}
+.nav-btn button {
+  background-color: #dd3131;
+  border: none;
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border-radius: 2px;
+}
+.nav-btn span {
+  color: #fff;
+}
+.nav-btn button:hover {
+  background-color: #584b4b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.searchbar {
+  position: relative;
+  color: #d7dcd7;
+}
+
+.searchbar i {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #bbb4b4;
+}
+.searchbar i:hover {
+  color: #474242;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.searchbar input::placeholder {
+  color: #bbb4b4;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.searchbar input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.searchbar input:focus::placeholder {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #474242;
+}
+.searchbar input:focus {
+  background-color: #ecebeb;
+  transition: 0.7s;
+}
+
+/* navbar ends */
+
+/* bar options starts */
+
+.bar-options {
+  display: flex;
+  justify-content: end;
+}
+.bar-options h3 {
+  margin: 1rem;
+  color: #3d3e3d;
+  font-size: 1.1rem;
+}
+
+.bar-options h3:hover {
+  color: #dd3131;
+  cursor: pointer;
+}
+/* bar options ends */
+
+/* banner1 starts */
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 22%;
+}
+.banner-container{
+  margin: 0 auto;
+  display: table;
+}
+
+.banner-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ffd34d;
+}
+.banner-content h3 {
+  color: #fff;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.banner {
+  position: relative;
+}
+.banner-content button {
+  color: #ffd34d;
+  width: 119px;
+  margin-top: 10px;
+  height: 50px;
+  background: #2c2b2b;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.banner-content button:hover {
+  color: #2c2b2b;
+  background: #ffd34d;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* banner1 ends */
+
+/* 1st thumbnail starts */
+.thumbnail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail img {
+  width: 400px;
+}
+
+/* 1st thumbnail ends */
+
+/* shop-by-cat starts */
+
+.shop-by-cat h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3d3e3d;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.content li {
+  list-style-type: none;
+}
+.content ul {
+  padding: 0;
+}
+.list {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 1.5rem;
+}
+.head li {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #3d3e3d;
+  cursor: pointer;
+}
+.head li:hover {
+  color: #dd3131;
+}
+.list li:hover {
+  color: #dd3131;
+}
+.view li {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #dd3131;
+  cursor: pointer;
+}
+.view li:hover {
+  color: #389938;
+}
+.shop-by-cat-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-by-cat-img img {
+  width: 100%;
+}
+
+/* shop-by-cat ends */
+
+/* banner2 starts */
+
+.banner2{
+  position: relative;
+}
+.banner2 img{
+
+  height: 400px;
+  width: 100%;
+
+}
+.banner-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 16%;
+  right: 7%;
+  width: 29%;
+}
+
+.banner-content2 h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffd34d;
+}
+.banner-content2 h3 {
+  color: #fff;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.banner-content2 button {
+  color: #2c2b2b;
+  width: 119px;
+  margin-top: 10px;
+  height: 50px;
+  background: #ffd34d;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.banner-content2 button:hover {
+  color: #ffd34d;
+  background: #2c2b2b;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* banner2 ends */
+
+
+/* trending starts */
+
+
+.trending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.whats-trending h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3d3e3d;
+}
+
+.card {
+  width: 20%;
+  border: 1px solid #efefef;
+  padding: 20px;
+}
+.card:hover {
+  transition: 0.5s all ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body {
+  position: relative;
+}
+.card-body h4 {
+  color: #2c2b2b;
+  font-weight: 500;
+}
+.card-body h4:hover {
+  color: #2dcb2d;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.card-body img {
+  width: 100%;
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.card-bottom i {
+  color: #ffd34d;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+.icons i {
+  margin: 5px;
+}
+.add-to-cart span {
+  color: #2dcb2d;
+  font-size: 17px;
+}
+
+.add-to-cart span:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.category{
+  color: #b3a6a6;
+  font-size: 15px;
+}
+
+/* trending ends */
+
+
+
+
+/* discover starts
+
+"classes were reused from TRENDING"
+
+discover ends */
+
+/* mini banner starts */
+
+.mini-banner{
+  display: flex;
+  justify-content: space-between;
+}
+.mini-banner img{
+  width: 100%;
+}
+.mini-banner-content1{
+  position: relative;
+  width: 49%;
+}
+
+.mini-banner-content2{
+  position: relative;
+}
+
+.content1  {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 29%;
+}
+.content2  {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  width: 40%;
+}
+ .content1 h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.content2  h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.content1 button {
+  color: #2c2b2b;
+  width: 119px;
+  margin-top: 10px;
+  height: 50px;
+  background: #ffd34d;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.content2 button {
+  color: #2c2b2b;
+  width: 119px;
+  margin-top: 10px;
+  height: 50px;
+  background: #ffd34d;
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+ .content1 button:hover {
+  color: #ffd34d;
+  background: #2c2b2b;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.content2 button:hover {
+  color: #ffd34d;
+  background: #2c2b2b;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* mini banner ends */
+
+/* About us starts */
+.container-fluid{
+  background-color: #474242;
+  color: #fff;
+}
+
+.upper-head{
+  display: flex;
+  justify-content: space-around;
+}
+.upper-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.upper-icons i{
+   color: #939292;
+  margin: 0px 6px;
+  font-size: 1.5rem;
+}
+.upper-icons i:hover{
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.upper-input input{
+  width: 200px;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background: #585555;
+  margin-left: 1rem;
+  color: #939292;
+}
+.upper-input button{
+  width: 128px;
+  padding: 1rem;
+  border: none;
+  background-color: #363636;
+  color: #fff;
+  margin: 1rem 0;
+}
+.upper-input button:hover {
+  background-color: #ff2828;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.wrap-lower{
+  background-color: #1f1f1f;
+  color: #fff;
+}
+.lower-head{
+display: flex;
+justify-content: space-around;
+}
+.lower-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower-content li{
+ 
+    list-style-type: none;
+    color: #939292;
+    
+}
+.lower-content li:hover{
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+
+
+/* About us ends */
+
